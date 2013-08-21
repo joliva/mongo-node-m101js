@@ -4,11 +4,10 @@
      <form action="/favorite_fruit" method="POST">
         <p>What is your favorite fruit?</p>
         {% for fruit in fruits %}
-          <p>
             <input type="radio" name="fruit" value="{{fruit}}">{{fruit}}</input>
-          </p>
+				<br/>
         {% endfor %}
-        <input type="submit" value="Submit"/>
+        <p><input type="submit" value="Submit"/></p>
      </form>
   </body>
 </html><!doctype HTML>
