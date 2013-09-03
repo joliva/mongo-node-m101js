@@ -1,0 +1,7 @@
+To check whether you have added the right index on the posts collection, run
+	cd validate
+	npm install
+	node hw4-3_validate.js
+You don't need to have the blog running for validate to succeed.
+You might want to look at the blog code to see what queries it does to the posts collection. they need to be fast.
+Need to import posts.json.
