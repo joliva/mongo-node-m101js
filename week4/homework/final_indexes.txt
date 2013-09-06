@@ -1,0 +1,37 @@
+> db.posts.getIndexes()
+[
+	{
+		"v" : 1,
+		"key" : {
+			"_id" : 1
+		},
+		"ns" : "blog.posts",
+		"name" : "_id_"
+	},
+	{
+		"v" : 1,
+		"key" : {
+			"date" : -1
+		},
+		"ns" : "blog.posts",
+		"name" : "date_-1"
+	},
+	{
+		"v" : 1,
+		"key" : {
+			"tags" : 1,
+			"date" : -1
+		},
+		"ns" : "blog.posts",
+		"name" : "tags_1_date_-1"
+	},
+	{
+		"v" : 1,
+		"key" : {
+			"permalink" : 1
+		},
+		"ns" : "blog.posts",
+		"name" : "permalink_1"
+	}
+]
+
