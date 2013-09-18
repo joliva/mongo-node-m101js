@@ -1,4 +1,3 @@
-
 import pymongo
 
 read_pref = pymongo.read_preferences.ReadPreference.SECONDARY
