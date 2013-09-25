@@ -1,0 +1,24 @@
+
+extends ../layout
+
+block content
+  h2= post.title
+  p= post.body
+  span= post.created.toGMTString()
+  p by #{post.author.fullname}
+  br
+  br
+  div
+    a(href="/post/edit/" + post.id) Edit
+    | |
+    a(href="/post/remove/" + post.id) Delete
+  .comments
+    ul
+      each comment in comments
+        li
+          p.text= comment.text
+          p.author= comment.author
+    if session.isLoggedIn
+      form(method='post', action="/post/comment/" + post.id)
+        textarea(name='text')
+        input(type='submit', value='Save')
