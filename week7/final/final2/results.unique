@@ -1,0 +1,14 @@
+[ { _id: { from: 'soblander@carrfut.com', to: 'soblander@carrfut.com' },
+    count: 679 } ]
+[ { _id: { from: 'evelyn.metoyer@enron.com', to: 'kate.symes@enron.com' },
+    count: 567 } ]
+[ { _id: { from: 'susan.mara@enron.com', to: 'jeff.dasovich@enron.com' },
+    count: 750 } ]
+[ { _id: 
+     { from: 'susan.mara@enron.com',
+       to: 'richard.shapiro@enron.com' },
+    count: 616 } ]
+[ { _id: { from: 'susan.mara@enron.com', to: 'james.steffes@enron.com' },
+    count: 646 } ]
+[ { _id: { from: 'susan.mara@enron.com', to: 'alan.comnes@enron.com' },
+    count: 550 } ]
